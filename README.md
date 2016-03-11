@@ -1,10 +1,16 @@
 junit is a unit testing framework tool for java.it is also called as whitebox/glassbox/transparent/unit testing.this is 
 basically the testing done by developer after crating the application 
+
 it has 5 annotations such as 
+
 1>  @Before
+
 2>  @After
+
 3>	@BeforeClass
+
 4>	@AfterClass
+
 5>	@Test
 
 1>	When writing tests, it is common to find that several tests need similar objects created before they can run. those are 
