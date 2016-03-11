@@ -29,9 +29,14 @@ BeforeClass method throws an exception.
 5>@Test is used to test something like we did in java main method
 
 NOTE:>
+
 -->execution always starts from @Test like we did in main method.without test junit testcase cannot be run
+
 -->everything written inside the testcase class is called as UTP(unit testing programme)
 
+
 some common standardization:>
+
 ..>every junit testcase class name should be end eith test
+
 ..>like test case every metho in testcase shouldbe be end with test
