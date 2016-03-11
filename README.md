@@ -15,12 +15,17 @@ it has 5 annotations such as
 
 1>	When writing tests, it is common to find that several tests need similar objects created before they can run. those are 
 written in @Before or before method
+
+
 2> f you allocate external resources in a Before method you need to release them after the test runs.those are wriiten in
 @After or after method
+
 3>	BeforeClass is used to do some opearation before starting the execution.like loging into the database
+
 4>  If you allocate expensive external resources in a BeforeClass method you need to release them after all the tests 
 in the class have run. these are written in @AfterClass. @AfterClass methods are guaranteed to run even if a
 BeforeClass method throws an exception. 
+
 5>@Test is used to test something like we did in java main method
 
 NOTE:>
